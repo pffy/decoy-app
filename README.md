@@ -56,5 +56,10 @@ $ gcloud app deploy
 
 9. Check your project web site.
 ```bash
+$ gcloud app browse
+```
+
+OR:
+```bash
 GO TO URL: https://[YOUR_PROJECT_ID].appspot.com
 ```
