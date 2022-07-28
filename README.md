@@ -30,6 +30,7 @@ $ cd foo
 4. Clone the decoy repo:
 ```bash
 $ git clone https://github.com/pffy/decoy-app
+$ cd decoy-app
 ```
 
 5. Authenticate.
