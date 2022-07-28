@@ -8,7 +8,9 @@ this is a humble Google App Engine tutorial repo
 
 ## OVERVIEW
 
-In this exercise, you will notice that we will not visit the Google Cloud Console web site. Instead, we will do everything from the commandl-line interface.
+In this exercise, you will notice that we will not visit the Google Cloud Console web site. Instead, we will be staging and deploying our simple project from the command-line interface (CLI).
+
+This is a very useful skill for timely cloud resource management. It also allows us to create automated shell scripts in later lessons, with little or no human interaction.
 
 ## STEPS
 
