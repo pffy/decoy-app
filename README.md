@@ -6,6 +6,10 @@ this is a humble Google App Engine tutorial repo
   + TBD
   + TBD
 
+## OVERVIEW
+
+In this exercise, you will notice that we will not visit the Google Cloud Console web site. Instead, we will do everything from the commandl-line interface.
+
 ## STEPS
 
 1. Open Google Cloud Shell (Terminal only).
