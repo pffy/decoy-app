@@ -13,6 +13,7 @@ this is a humble Google App Engine tutorial repo
     + CLICK: https://shell.cloud.google.com/?show=terminal
 
 > **NOTE:** If you prefer, you can change the text size to be very, very big.
+> **NOTE:** `gcloud` and `git` are already install for you. Neat!
 
 2. Create new folder in home directory:
 ```bash
