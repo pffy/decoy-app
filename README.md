@@ -46,7 +46,7 @@ $ gcloud init
 
 6. **Create a new project.** Enter the new project name when prompted.
 
-7. Find the billing accounts we created in an earlier lesson:
+7. Find the billing account we created in an earlier lesson:
 ```bash
 $ gcloud beta billing accounts list
 ```
@@ -61,7 +61,7 @@ $ gcloud beta billing projects link [YOUR_PROJECT_ID] 0X0X0X-0X0X0X-0X0X0X
 $ gcloud services enable cloudbuild.googleapis.com
 ```
 
-19. Deploy your first app. Choose server location.
+19. Deploy your first app. Choose the server location.
 ```bash
 $ gcloud app deploy
 ```
