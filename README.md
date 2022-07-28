@@ -37,14 +37,7 @@ $ git clone https://github.com/pffy/decoy-app
 $ gcloud init
 ```
 
-6. Create a new project.
-
-You can create a new project when prompted.
-
-If you are already authenticated, you simply type the following:
-```bash
-$ gcloud app create --project=[YOUR_PROJECT_ID]
-```
+6. **Create a new project.** Enter the new project name when prompted.
 
 7. Enable the Cloud Build API.
 ```bash
