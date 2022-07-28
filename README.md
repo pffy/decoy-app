@@ -1,17 +1,18 @@
 # decoy-app
 this is a humble Google App Engine tutorial repo
 
-## READING
-  + 
-
-##
+## REQUIRED READING
+  + TBD
+  + TBD
+  + TBD
 
 ## STEPS
 
 1. Open Google Cloud Shell (Terminal only).
-  + https://shell.cloud.google.com/?show=terminal
+  
+    + CLICK: https://shell.cloud.google.com/?show=terminal
 
-> **NOTE:** You can change the text size to be very big you want.
+> **NOTE:** If you prefer, you can change the text size to be very, very big.
 
 2. Create new folder in home directory:
 ```bash
