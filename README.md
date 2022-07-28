@@ -40,17 +40,27 @@ $ gcloud init
 
 6. **Create a new project.** Enter the new project name when prompted.
 
-7. Enable the Cloud Build API.
+7. Find the billing accounts we created in an earlier lesson:
+```bash
+$ gcloud beta billing accounts list
+```
+
+8. Link that billing account to your new project.
+```bash
+$ gcloud beta billing projects link [YOUR_PROJECT_ID] 0X0X0X-0X0X0X-0X0X0X
+```
+
+9. Enable the Cloud Build API.
 ```bash
 $ gcloud services enable cloudbuild.googleapis.com
 ```
 
-8. Deploy your first app. Choose server location.
+19. Deploy your first app. Choose server location.
 ```bash
 $ gcloud app deploy
 ```
 
-9. Check your project web site.
+11. Check your project web site.
 ```bash
 $ gcloud app browse
 ```
