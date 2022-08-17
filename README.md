@@ -16,11 +16,14 @@ This is a very useful skill for timely cloud resource management. It also allows
 
 1. Open Google Cloud Shell (Terminal only).
   
-    + CLICK: https://shell.cloud.google.com/?show=terminal
+    + https://shell.cloud.google.com/?show=terminal
+      + Ctrl + Click to open in a new tab
+      + Shift + Click to open in a new window
+
+> **NOTE:** `gcloud` and `git` are already installed. Sweet!
 
 > **NOTE:** If you prefer, you can change the text size to be very, very big.
 
-> **NOTE:** `gcloud` and `git` are already installed. Sweet!
 
 2. Create new folder in home directory:
 ```bash
