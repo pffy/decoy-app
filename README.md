@@ -2,9 +2,10 @@
 this is a humble Google App Engine tutorial repo
 
 ## REQUIRED READING
-  + TBD
-  + TBD
-  + TBD
+  + SKIM: https://derechodelared.com/wp-content/uploads/2021/03/Google-Cloud-Developers-Cheat-Sheet.pdf
+  + EXPLORE: https://github.com/priyankavergadia/google-cloud-4-words
+  + READ: https://cloud.google.com/sdk/docs/images/gcloud-cheat-sheet.pdf
+  + READ: https://cloud.google.com/billing/docs/concepts
 
 ## OVERVIEW
 
