@@ -26,13 +26,13 @@ This is a very useful skill for timely cloud resource management. It also allows
 > **NOTE:** If you prefer, you can change the text size to be very, very big.
 
 
-2. Create new folder in home directory:
+2. Create a new folder in your home directory:
 ```bash
 $ cd ~
 $ mkdir foo
 ```
 
-3. Change the directory to the folder:
+3. Change the directory to the bew folder:
 ```bash
 $ cd foo
 ```
