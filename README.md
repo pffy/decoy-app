@@ -2,20 +2,29 @@
 this is a humble Google App Engine tutorial repo
 
 ## REQUIRED READING
-  + SKIM: https://derechodelared.com/wp-content/uploads/2021/03/Google-Cloud-Developers-Cheat-Sheet.pdf
-  + EXPLORE: https://github.com/priyankavergadia/google-cloud-4-words
-  + READ: https://cloud.google.com/sdk/docs/images/gcloud-cheat-sheet.pdf
-  + READ: https://cloud.google.com/billing/docs/concepts
+  + SKIM THIS: 
+    + https://derechodelared.com/wp-content/uploads/2021/03/Google-Cloud-Developers-Cheat-Sheet.pdf
+  + EXPLORE THIS: 
+    + https://github.com/priyankavergadia/google-cloud-4-words
+  + READ THIS: 
+    + https://cloud.google.com/sdk/docs/images/gcloud-cheat-sheet.pdf
+    + https://cloud.google.com/billing/docs/concepts
 
 ## OVERVIEW
 
-In this exercise, you will notice that we will not visit the Google Cloud Console web site. Instead, we will be staging and deploying our simple project from the command-line interface (CLI).
+In this exercise, you will notice that we will not visit the Google Cloud Console web site. 
 
-This is a very useful skill for timely cloud resource management. It also allows us to create automated shell scripts in later lessons, with little or no human interaction.
+Instead, we will be staging and deploying our simple project from the command-line interface (CLI).
+
+The Google Cloud CLI allows us to more efficiently manage and deploy Google Cloud Platform (GCP) resources without navigating the web user interface (UI).
+
+This is a very useful skill for timely and precise GCP resource management, as the web UI may be a more cumbersome way to simply flip switches. 
+
+The Google Cloud CLI also allows us to create automated shell scripts in later lessons, with little or no human interaction. These scripts can provide a versatile template for building and deploying many projects for multiple users.
 
 ## STEPS
 
-1. Open Google Cloud Shell (Terminal only).
+1. First, open the Google Cloud Shell (Terminal only) in your web browser:
   
     + https://shell.cloud.google.com/?show=terminal
       + Ctrl + Click to open in a new tab
@@ -32,7 +41,7 @@ $ cd ~
 $ mkdir foo
 ```
 
-3. Change the directory to the bew folder:
+3. Change the directory to the new folder:
 ```bash
 $ cd foo
 ```
