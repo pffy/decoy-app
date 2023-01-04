@@ -20,11 +20,11 @@ The Google Cloud CLI allows us to more efficiently manage and deploy Google Clou
 
 This is a very useful skill for timely and precise GCP resource management, as the web UI may be a more cumbersome way to simply flip switches. 
 
-The Google Cloud CLI also allows us to create automated shell scripts in later lessons, with little or no human interaction. These scripts can provide a versatile template for building and deploying many projects for multiple users.
+The Google Cloud CLI also enables us to create automated shell scripts (in later lessons), with little or no human interaction. These scripts can provide a versatile template for building and deploying many projects for multiple users.
 
 ## STEPS
 
-1. First, open the Google Cloud Shell (Terminal only) in your web browser:
+1. First, we open the Google Cloud Shell (Terminal only) in your web browser:
   
     + https://shell.cloud.google.com/?show=terminal
       + Ctrl + Click to open in a new tab
@@ -35,24 +35,28 @@ The Google Cloud CLI also allows us to create automated shell scripts in later l
 > **NOTE:** If you prefer, you can change the text size to be very, very big.
 
 
-2. Create a new folder in your home directory:
+2. Next, we create a new folder in your home directory using the following bash commends:
+
+
 ```bash
 $ cd ~
 $ mkdir foo
 ```
 
-3. Change the directory to the new folder:
+3. Then, we change the working directory to the new folder:
+
 ```bash
 $ cd foo
 ```
 
-4. Clone the decoy repo:
+4. In the new folder, we clone the `decoy-app` repository from GitHub and change the working directory again as follows:
+
 ```bash
 $ git clone https://github.com/pffy/decoy-app
 $ cd decoy-app
 ```
 
-5. Authenticate.
+5. Before we continue, we authenticate.
 ```bash
 $ gcloud init
 ```
@@ -60,31 +64,39 @@ $ gcloud init
 6. **Create a new project.** Enter the new project name when prompted.
 
 7. Find the billing account we created in an earlier lesson:
+
 ```bash
 $ gcloud beta billing accounts list
 ```
 
 8. Link that billing account to your new project.
+
 ```bash
 $ gcloud beta billing projects link [YOUR_PROJECT_ID] 0X0X0X-0X0X0X-0X0X0X
 ```
 
-9. Enable the Cloud Build API.
+9. In order to deploy the project to App Engine, we must enable the Cloud Build API:
+
 ```bash
 $ gcloud services enable cloudbuild.googleapis.com
 ```
 
-19. Deploy your first app. Choose the server location.
+10. Now, we can deploy your first app. Be sure to choose a server location.
+
 ```bash
 $ gcloud app deploy
 ```
 
-11. Check your project web site.
+11. After your project is deployed to App Engine, we can check your project web site.
 ```bash
 $ gcloud app browse
 ```
 
-OR:
+Alternatively, you can simply visit the following URL in your web browser.
 ```bash
 GO TO URL: https://[YOUR_PROJECT_ID].appspot.com
 ```
+
+## Conclusion
+
+TBD
