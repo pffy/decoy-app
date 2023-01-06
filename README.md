@@ -109,9 +109,13 @@ Alternatively, you can simply visit the following URL in your web browser.
 GO TO URL: https://[YOUR_PROJECT_ID].appspot.com
 ```
 
+This step-by-step tutorial required some human interaction. Now, we will discuss some options for more automation using the GCP CLI.
+
 ## More Automation
 
-Automation allows you to do more with little or no human interation. When you simply want something done by a command without prompts, you can use the `-q` flag (`--quiet`).
+Automation allows you to do more with little or no human interaction. 
+
+For example, when you simply want something done by a command without prompts, you can use the `-q` flag (`--quiet`).
 
 It is possible for us to create a new project from the CLI, using the following command:
 
@@ -127,6 +131,16 @@ $ gcloud app create --region us-west2 -q
 
 > **NOTE:** You can use any available region. `us-west2` was used an example.
 
+> **NOTE**: Remember, you must assign a billing account and enable Cloud Build prior to deploying the App Engine application.
+
+Once your App Engine application is initialized, you can simply deploy it from the application root folder with the `app.yaml` file:
+
+```
+$ gcloud app deploy -q
+```
+
+We discussed these additional automation options as part of this lesson, but they are completely option at this point. In later lessons, we will implement more scritping with less human interaction, which can be used in different business contexts and operating environments.
+
 ## Conclusion
 
-TBD
+still TBD
