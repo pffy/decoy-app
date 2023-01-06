@@ -22,6 +22,14 @@ This is a very useful skill for timely and precise GCP resource management, as t
 
 The Google Cloud CLI also enables us to create automated shell scripts (in later lessons), with little or no human interaction. These scripts can provide a versatile template for building and deploying many projects for multiple users.
 
+In the following step-by-step tutorial, we will use Google web-based tools to:
+
+  * item
+  * item
+  * item
+  * item
+  * item 
+  
 ## STEPS
 
 1. First, we open the Google Cloud Shell (Terminal only) in your web browser:
@@ -32,7 +40,7 @@ The Google Cloud CLI also enables us to create automated shell scripts (in later
 
 > **NOTE:** `gcloud` and `git` are already installed. Sweet!
 
-> **NOTE:** If you prefer, you can change the text size to be very, very big.
+> **NOTE:** If you prefer, you can change the terminal text size to be very, very big.
 
 
 2. Next, we create a new folder in your home directory using the following bash commends:
