@@ -27,8 +27,9 @@ In the following step-by-step tutorial, we will use Google web-based tools to:
   * Create a project workspace in your home directory
   * Clone a project template from GitHub
   * Create a new GCP project
-  * Add billing informoation to that new project
-  * Deploy the project to App Engine
+  * Add billing informoation to that new GCP project
+  * Enable GCP Cloud Build (after adding required billing info)
+  * Deploy the project files to App Engine
 
   
 ## STEPS
