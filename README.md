@@ -115,7 +115,17 @@ This step-by-step tutorial required some human interaction. Now, we will discuss
 
 Automation allows you to do more with little or no human interaction. 
 
-For example, when you simply want something done by a command without prompts, you can use the `-q` flag (`--quiet`).
+In the above tutorial, we were tasked with the following human interactions:
+
+  * Create a new project ID
+  * Choose a region (location) for your App Engine application
+  * Deploy the application to App Engine
+
+For each task, we were provided a prompt, where we provided additional input. 
+
+However, all these tasks can be automated without the prompts or human interaction.
+
+For example, when we simply want something done by a `gcloud` command without prompts, you can use the `-q` global flag (`--quiet`).
 
 It is possible for us to create a new project from the CLI, using the following command:
 
@@ -123,7 +133,7 @@ It is possible for us to create a new project from the CLI, using the following 
 $ gcloud projects create new-project-id-here -q
 ```
 
-It is also possible to initialize your Google App Engine application using the following command:
+It is also possible to initialize your newly-created Google App Engine application using the following command:
 
 ```
 $ gcloud app create --region us-west2 -q
