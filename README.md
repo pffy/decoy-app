@@ -59,12 +59,14 @@ $ mkdir foo
 $ cd foo
 ```
 
-4. In the new folder, we clone the `decoy-app` repository from GitHub and change the working directory again as follows:
+4. In the new folder `~/foo`, we clone the `decoy-app` repository from GitHub and change the working directory again as follows:
 
 ```bash
 $ git clone https://github.com/pffy/decoy-app
 $ cd decoy-app
 ```
+
+We are now in the folder `~/foo/decoy-app`.
 
 5. Before we continue, we authenticate.
 ```bash
@@ -106,6 +108,24 @@ Alternatively, you can simply visit the following URL in your web browser.
 ```bash
 GO TO URL: https://[YOUR_PROJECT_ID].appspot.com
 ```
+
+## More Automation
+
+Automation allows you to do more with little or no human interation. When you simply want something done by a command without prompts, you can use the `-q` flag (`--quiet`).
+
+It is possible for us to create a new project from the CLI, using the following command:
+
+```
+$ gcloud projects create new-project-id-here -q
+```
+
+It is also possible to initialize your Google App Engine application using the following command:
+
+```
+$ gcloud app create --region us-west2 -q
+```
+
+> **NOTE:** You can use any available region. `us-west2` was used an example.
 
 ## Conclusion
 
