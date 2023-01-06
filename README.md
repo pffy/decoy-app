@@ -24,11 +24,12 @@ The Google Cloud CLI also enables us to create automated shell scripts (in later
 
 In the following step-by-step tutorial, we will use Google web-based tools to:
 
-  * item
-  * item
-  * item
-  * item
-  * item 
+  * Create a project workspace in your home directory
+  * Clone a project template from GitHub
+  * Create a new GCP project
+  * Add billing informoation to that new project
+  * Deploy the project to App Engine
+
   
 ## STEPS
 
