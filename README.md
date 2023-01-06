@@ -139,7 +139,13 @@ Once your App Engine application is initialized, you can simply deploy it from t
 $ gcloud app deploy -q
 ```
 
-We discussed these additional automation options as part of this lesson, but they are completely option at this point. In later lessons, we will implement more scritping with less human interaction, which can be used in different business contexts and operating environments.
+Pretty cool, huh!
+
+We discussed this additional automation as a preview of what is possible with the Google Cloud Plaform CLI.
+
+At this point, the extra commands in this section are optional, but they show human interaction can be minimized for better productivity.
+
+In later lessons, we will implement more shell scritping with less human interaction and more flexibility.
 
 ## Conclusion
 
