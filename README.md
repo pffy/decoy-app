@@ -131,7 +131,7 @@ $ gcloud app create --region us-west2 -q
 
 > **NOTE:** You can use any available region. `us-west2` was used an example.
 
-> **NOTE**: Remember, you must assign a billing account and enable Cloud Build prior to deploying the App Engine application.
+> **NOTE**: Remember, you must assign a billing account ***and*** enable Cloud Build prior to deploying the App Engine application.
 
 Once your App Engine application is initialized, you can simply deploy it from the application root folder with the `app.yaml` file:
 
