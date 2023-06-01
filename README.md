@@ -84,7 +84,7 @@ $ gcloud beta billing accounts list
 8. Link that billing account to your new project.
 
 ```bash
-$ gcloud beta billing projects link [YOUR_PROJECT_ID] 0X0X0X-0X0X0X-0X0X0X
+$ gcloud beta billing projects link [YOUR_PROJECT_ID] --billing-account=0X0X0X-0X0X0X-0X0X0X
 ```
 
 9. In order to deploy the project to App Engine, we must enable the Cloud Build API:
